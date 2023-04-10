@@ -10,6 +10,7 @@ export default defineConfig({
 	history: {
 		type: "hash",
 	},
+	initialState: {},
 	routes: routers,
 	define: {
 	  	CESIUM_BASE_URL: "",

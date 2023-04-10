@@ -4,12 +4,17 @@ export default [
         path: '/home',
         component: '@/pages/home',
         label: 'HOME'
-
     },
     {
         key: '2',
-        path: '/about',
-        component: '@/pages/about',
-        label: 'ABOUT'
+        label: 'ABOUT',
+        children: [
+            {
+                key: '2-1',
+                path: '/about',
+                component: '@/pages/about',
+                label: 'ABOUT'
+            }
+        ]
     }
 ];
