@@ -1,5 +1,5 @@
 import './index.less';
 
 export default () => {
-    return <div style={{height: 3000}}>我是about首页</div>;
+    return <div className="about">我是about首页</div>;
 };
